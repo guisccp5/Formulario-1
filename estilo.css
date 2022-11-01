@@ -1,0 +1,29 @@
+/* **** Estilizando formularios **** */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block; /* para ficar acima da caixa de texto*/
+    cursor: pointer;
+}
+
+input [type="text"] { /*Inclui um atributo para formatar apenas 'inputs' de tipo 'text'*/
+    width: 20em;
+}
+
+.radio {
+    margin-right: 1em;
+}
